@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    transition: background 0.3s;
+    color: black;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+.clear {
+    clear: both;
+}
+.activePage {
+    background: gray;
+}
+
+/* header block */
+.header {
+    border-bottom: 2px solid #acacac;
+    background: #CED3DC;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+.wrapper {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 20px 30px;
+}
+
+
+.headerBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* logo block */
+.logo h1 {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+.logo h1 span {
+    display: block;
+    font-weight: 400;
+}
+.logo .info p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.logo .info p:last-child {
+    margin-right: 0;
+}
+
+.logo .info span {
+    font-weight: normal;
+}
+
+/* menu block */
+.menu li {
+    display: inline-block;
+}
+.menu ul li a {
+    display: block;
+    padding: 5px 10px;
+}
+
+.menu ul li a:hover {
+    background: gray;
+}
+/*main block*/
+
+
+.main .photo {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    float: left;
+    margin: 152px 20px 20px 20px;
+
+}
+
+.aboutMe {
+    max-width: 1366px;
+    margin: 110px auto;
+    padding: 20px 60px;
+}
+/* footer block*/
+
+.wrapper1 {
+    margin: 100px auto;
+    width: 100%;
+    height: 500px;
+    background: #CED3DC;
+    display: flex;
+    align-items: center;
+
+}
+
+.inner {
+    display: flex;
+    justify-content: center;
+    align-item: center;
+    flex-wrap: wrap;
+
+
+
+}
+.inner1 {
+    background: green;
+    margin: 10px;
+    width: 200px;
+    height: 400px;
+
+
+
+}
+
+.inner2{
+    background: blue;
+    margin: 10px;
+    width: 200px;
+    height: 400px;
+    float: center;
+    align-content: center;
+
+}
+
+.inner3 {
+    background: red;
+    margin: 10px;
+    width: 200px;
+    height: 400px;
+}
+
+
+.footer {
+    border-top: 2px solid #acacac;
+    text-align: center;
+}
